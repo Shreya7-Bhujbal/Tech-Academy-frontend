@@ -1,4 +1,3 @@
-
 import React from "react";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
@@ -6,8 +5,8 @@ import Home from "./Home";
 import About from "./About";
 import Contact from "./Contact";
 import CourseDetail from "./CourseDetail";
-import MyEnrollments from "./MyEnrollments";
 import Enroll from "./Enroll";
+import MyEnrollments from "./MyEnrollments";
 
 function App() {
   return (
@@ -16,9 +15,9 @@ function App() {
         <Route path="/" element={<Home />} />
         <Route path="/about" element={<About />} />
         <Route path="/contact" element={<Contact />} />
-        <Route path="/course" element={<CourseDetail />} />
+        <Route path="/courses/:id" element={<CourseDetail />} />
+        <Route path="/enroll/:id" element={<Enroll />} />
         <Route path="/my-enrollments" element={<MyEnrollments />} />
-        <Route path="/enroll" element={<Enroll />} />
       </Routes>
     </Router>
   );
