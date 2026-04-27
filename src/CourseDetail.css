@@ -1,0 +1,11 @@
+.course-detail {
+  padding: 40px;
+}
+
+.course-detail h1 {
+  margin-bottom: 20px;
+}
+
+.course-detail p {
+  color: #555;
+}
