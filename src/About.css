@@ -1,0 +1,13 @@
+.about {
+  padding: 40px;
+  text-align: center;
+}
+
+.about h1 {
+  font-size: 2rem;
+  margin-bottom: 10px;
+}
+
+.about p {
+  color: #666;
+}
