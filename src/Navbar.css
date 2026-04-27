@@ -1,5 +1,10 @@
-.navbar {
-  padding: 10px 20px;
-  background: #111;
-  color: white;
+import React from "react";
+import "./Navbar.css";
+
+export default function Navbar() {
+  return (
+    <div className="navbar">
+      <h2>Tech Academy 🚀</h2>
+    </div>
+  );
 }
